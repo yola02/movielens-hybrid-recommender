@@ -22,7 +22,7 @@ Evaluated on 504,298 held-out ratings (10% user sample, 80/20 split).
 - The best hybrid beat the bias baseline but not ALS, which was ~4.5% better on rating error and led on both ranking metrics.
 - Ranking by how well liked a movie is (bias model) beat ranking by how often it was rated (popularity).
 
-![Error distribution](results/error_distribution.png)
+![Error distribution](results/histogram.png)
 ![Predicted vs actual rating](results/predicted_vs_actual.png)
 
 Both models over-predict low ratings and under-predict high ones (regression toward the middle); ALS is slightly tighter and closer to the diagonal.
